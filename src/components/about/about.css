@@ -59,6 +59,11 @@
     cursor: pointer;
 }
 
+.about-action button:hover {
+    font-size: 40px;
+    box-shadow: 10px 5px 5px wheat;
+}
+
 .about-right {
     position: relative;
     flex: 1;
