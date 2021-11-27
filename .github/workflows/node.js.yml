@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
+      - run: git pull
       - run: git checkout production
       - run: git merge main
       - run: git push origin production
