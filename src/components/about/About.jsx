@@ -17,8 +17,7 @@ const About = () => {
 
                     <div className="about-description">
                         <p>
-                            צריך גימלים דחוף? וכבר הרגת את כל הסבתות? איתנו תוציא גימלים ללא הגבלה!
-                            צריך גימלים דחוף? וכבר הרגת את כל הסבתות? איתנו תוציא גימלים ללא הגבלה!
+                            צריך גימלים דחוף? וכבר הרגת את כל הסבתות? איתנו תוציא גימלים ללא הגבלה! הגימלים שתקבל רשומים כחוק במערכת! אז די לשתות חלב סויה! בלי לצאת מהבית, בלי לזוז מהספה, גימלים בקליק! (לפזמ בלבד)
                         </p>
                     </div>
 
@@ -36,7 +35,8 @@ const About = () => {
 
                     <div className="about-bg"></div>
 
-                    <img src={Image} alt="" className="about-image" />
+                    <div className="about-image-bg" />
+                    <img src={Image} alt="ביקור רופא" className="about-image" />
 
                 </div>
 

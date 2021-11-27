@@ -80,3 +80,12 @@
     position: absolute;
     border-radius: 10px;
 }
+
+.about-image-bg {
+    background: wheat;
+    width: 640px;
+    height: 350px;
+    transform: translate(-3%, 60%);
+    position: absolute;
+    border-radius: 10px;
+}
