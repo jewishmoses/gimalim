@@ -4,7 +4,7 @@ A simple html & css project made within react.
 
 ## Sections
 ### About section
-![](https://i.imgur.com/T4dCOmV.png "gimalim about section")
+![](https://i.imgur.com/rj2gqCZ.png "gimalim about section")
 ## TODO
 - Add more sections
 - Add project to github pages
