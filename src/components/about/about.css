@@ -1,0 +1,82 @@
+.about {
+    display: flex;
+    height: 100vh;
+}
+
+.about-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.about-left-wrapper {
+    padding: 50px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.about-title h1 {
+    margin: 0;
+    color: #008145;
+    font-size: 100px;
+}
+
+.about-description {
+    flex: 1;
+    font-weight: 300;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-description p {
+    margin: 0;
+}
+
+.about-action {
+    flex: 1;
+}
+
+.about-action button {
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Karantina', cursive;
+    border: none;
+    color: white;
+    background: #008145;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.about-right {
+    position: relative;
+    flex: 1;
+}
+
+.about-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #008145;
+    clip-path: polygon(0% 0%, 100% 0, 58% 50%, 100% 100%, 0% 100%);
+}
+
+.about-image {
+    transform: translateY(50%);
+    object-fit: cover;
+    position: absolute;
+    border-radius: 10px;
+}
